@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BOGO Offer</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="container">
+        <h1>YAY! It’s BOGO</h1>
+
+        <!-- Option 1 -->
+        <div class="option" onclick="toggleExpand(this)">
+            <label class="radio-container">
+                <input type="radio" name="unit">
+                <span class="radio-label">
+                    <div class="label-header">
+                        <span>1 Unit</span>
+                        <span class="discount">10% Off</span>
+                        <span class="price">$10.00 USD</span>
+                    </div>
+                    <span class="original-price">$24.00 USD</span>
+                    <span class="description">Standard Price</span>
+
+                    <!-- Selection Options (Hidden by default) -->
+                    <div class="selection">
+                        <div class="select-opt">
+                            <span class="size1">Size</span>
+                            <span class="size1">Color</span>
+                        </div>
+                        <div class="selection-group">
+                            <label>#1</label>
+                            <select>
+                                <option>S</option>
+                                <option>M</option>
+                                <option>L</option>
+                            </select>
+                            <select>
+                                <option>Black</option>
+                                <option>White</option>
+                                <option>Red</option>
+                            </select>
+                        </div>
+                        <div class="selection-group">
+                            <label>#2</label>
+                            <select>
+                                <option>S</option>
+                                <option>M</option>
+                                <option>L</option>
+                            </select>
+                            <select>
+                                <option>Black</option>
+                                <option>White</option>
+                                <option>Red</option>
+                            </select>
+                        </div>
+                    </div>
+                </span>
+            </label>
+        </div>
+
+        <!-- Option 2 -->
+        <div class="option most-popular" onclick="toggleExpand(this)">
+            <label class="radio-container">
+                <input type="radio" name="unit">
+                <span class="radio-label">
+                    <div class="label-header">
+                        <span>2 Unit</span>
+                        <span class="discount">20% Off</span>
+                        <span class="price">$18.00 USD</span>
+                    </div>
+                    <span class="original-price">$24.00 USD</span>
+
+                    <!-- Selection Options (Hidden by default) -->
+                    <div class="selection">
+                        <div class="select-opt">
+                            <span class="size1">Size</span>
+                            <span class="size1">Color</span>
+                        </div>
+                        <div class="selection-group">
+                            <label>#1</label>
+                            <select>
+                                <option>S</option>
+                                <option>M</option>
+                                <option>L</option>
+                            </select>
+                            <select>
+                                <option>Black</option>
+                                <option>White</option>
+                                <option>Red</option>
+                            </select>
+                        </div>
+                        <div class="selection-group">
+                            <label>#2</label>
+                            <select>
+                                <option>S</option>
+                                <option>M</option>
+                                <option>L</option>
+                            </select>
+                            <select>
+                                <option>Black</option>
+                                <option>White</option>
+                                <option>Red</option>
+                            </select>
+                        </div>
+                    </div>
+                </span>
+                <span class="badge">MOST POPULAR</span>
+            </label>
+        </div>
+
+        <!-- Option 3 -->
+        <div class="option" onclick="toggleExpand(this)">
+            <label class="radio-container">
+                <input type="radio" name="unit">
+                <span class="radio-label">
+                    <div class="label-header">
+                        <span>3 Unit</span>
+                        <span class="discount">30% Off</span>
+                        <span class="price">$24.00 USD</span>
+                    </div>
+                    <span class="original-price">$24.00 USD</span>
+
+                    <!-- Selection Options (Hidden by default) -->
+                    <div class="selection">
+                        <div class="select-opt">
+                            <span class="size1">Size</span>
+                            <span class="size1">Color</span>
+                        </div>
+                        <div class="selection-group">
+                            <label>#1</label>
+                            <select>
+                                <option>S</option>
+                                <option>M</option>
+                                <option>L</option>
+                            </select>
+                            <select>
+                                <option>Black</option>
+                                <option>White</option>
+                                <option>Red</option>
+                            </select>
+                        </div>
+                        <div class="selection-group">
+                            <label>#2</label>
+                            <select>
+                                <option>S</option>
+                                <option>M</option>
+                                <option>L</option>
+                            </select>
+                            <select>
+                                <option>Black</option>
+                                <option>White</option>
+                                <option>Red</option>
+                            </select>
+                        </div>
+                    </div>
+                </span>
+            </label>
+        </div>
+
+        <div class="last-part">
+            <p class="free-delivery">Free Delivery</p>
+            <p class="total">Total: $18.00 USD</p>
+        </div>
+        <button class="add-to-cart">+ Add to Cart</button>
+        <p class="powered-by">Powered by Pumper</p>
+    </div>
+
+    <script src="toggle.js">
+      
+    </script>
+</body>
+</html>
